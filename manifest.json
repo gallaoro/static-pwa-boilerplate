@@ -1,0 +1,28 @@
+{
+  "name":"html_template",
+  "short_name":"html_temp",
+  "description": "A simply htm template for static websites.",
+  "lang": "it-IT",
+  "start_url":"?utm_source=manifest",
+  "background_color": "#EEEEEE",
+  "theme_color": "#2196F3",
+  "display": "standalone",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "img/thumb/64.png",
+      "type": "image/png",
+      "sizes": "64x64"
+    },
+    {
+      "src": "img/thumb/128.png",
+      "type": "image/png",
+      "sizes": "128x128"
+    },
+    {
+      "src": "img/thumb/512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+}
