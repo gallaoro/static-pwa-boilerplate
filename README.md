@@ -8,6 +8,7 @@ Includes:
 * [Skeleton CSS](http://getskeleton.com/) + normalize
 * Web app manifest
 * Basic service worker + registration companion
+* Initial web push notification support (you will need a external server)
 
 ### Installation
 
@@ -15,6 +16,7 @@ Includes:
 * Clone the repo: `git clone https://github.com/lellefood/static_html_template.git`
 * Rename directory: `mv static_html_template <new_project_name>`
 * Change directory: `cd <new_project_name>`
+* Modify the `manifest.json` with your informations
 * Start writing your website
 
 ### Developing
@@ -49,6 +51,8 @@ root
 
 * **How can I add a new page?** Add a new file `<new_page_name>.html` in the root of the project.  
 Link to it with `/<new_page_name>.html`
+
+* **How can I add web push notifications?** The initial code to get a pushSubscription is already given in the `index.js` script, follow [this tutorial](https://web-push-book.gauntface.com/) to know how web push work.
 
 ### Deploy
 
