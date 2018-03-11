@@ -31,7 +31,7 @@ root
 │   └── index.css
 │
 ├── js
-│  └── index.js
+│   └── index.js
 │
 ├── img
 │   └── thumb
