@@ -17,7 +17,7 @@ self.addEventListener("activate", event => {
 
 self.addEventListener("fetch", event => {
   console.log(TAG, "fetching");
-  fetch(event.request)
+  event.respondWith(fetch(event.request));
 })
 
 self.addEventListener("push", event => {
@@ -32,13 +32,13 @@ self.addEventListener("push", event => {
       try{
         data = event.data.json();
       }catch(error){
-        data={}    
-      }  
+        data={}
+      }
     }
     var title = data.title || "Nuova notifica";
     var message = data.message || "Questo e solo un messaggio fisso.";
 
-    var options= { body: message, tag: "simple-1"} 
+    var options= { body: message, tag: "simple-1"}
 
     var myNotification = self.registration.showNotification(title, options).then(resolve());
   }))

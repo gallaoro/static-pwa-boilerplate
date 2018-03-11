@@ -15,14 +15,14 @@
       "sizes": "64x64"
     },
     {
-      "src": "img/thumb/128.png",
+      "src": "img/thumb/144.png",
       "type": "image/png",
-      "sizes": "128x128"
+      "sizes": "144x144"
     },
     {
       "src": "img/thumb/512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
-  ],
+  ]
 }
