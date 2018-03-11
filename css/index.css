@@ -1,0 +1,106 @@
+.big-container{
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+/*
+ ========== Header ==========
+*/
+.header{
+  min-height: 300px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../img/thumb/1366x768.png');
+  background-size: cover;
+}
+
+.header-nav{
+  color: white;
+  padding: 20px;
+  font-size: 30px;
+  align-items: center;
+  display: flex;
+}
+
+.header-nav a{
+  height: 64px;
+}
+
+.header-nav span{
+  margin-left: 20px;
+}
+
+/*
+ ========== Top content ==========
+*/
+
+#top{
+  margin-top: 30px;
+}
+
+.quote{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../img/thumb/1366x768.png');
+  background-size: cover;
+  margin-top: 20px;
+  padding: 20px;
+  padding-bottom: 40px;
+  color: white;
+}
+
+.quote p{
+  float:right;
+}
+
+/*
+ ========== Main content ==========
+*/
+
+#main{
+  margin-top: 40px;
+}
+
+#main img{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../img/thumb/512.png');
+  max-height: 300px;
+  border-radius: 3px;
+}
+
+#main .row :nth-child(2){
+  display: flex;
+  justify-content: center;
+}
+
+/*
+ ========== Social ==========
+*/
+#social{
+  margin-top: 50px;
+}
+#social div div{
+  text-align: center;
+}
+#social img{
+  max-width: 64px;
+}
+
+/*
+ ========== Footer ==========
+*/
+
+#footer{
+  margin-top: 60px;
+  min-height: 300px;
+  background-color: grey;
+  color: white;
+  padding: 30px;
+  position: relative;
+}
+
+#footer a{
+  color: black;
+  font-weight: 800;
+}
+
+#footer div{
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
