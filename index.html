@@ -39,7 +39,7 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <script async type="text/javascript">
     if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('/serviceworker.js')
+      navigator.serviceWorker.register('serviceworker.js', { scope: '/static_html_template/'})
       .then(function(registration) {
         registration.addEventListener('updatefound', function() {
           var installingWorker = registration.installing;
