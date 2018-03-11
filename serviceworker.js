@@ -1,5 +1,21 @@
-CACHE_NAME = "default-v1";
-CACHE_ASSETS = [];
+CACHE_NAME = "cache-v1";
+CACHE_ASSETS = [
+  //HTML
+  "index.html",
+  //CSS
+  "css/index.css",
+  "css/skeleton.css",
+  "css/normalize.css",
+  //JS
+  "js/index.js",
+  //IMAGES
+  "img/thumb/64.png",
+  "img/thumb/144.png",
+  "img/thumb/512.png",
+  "img/thumb/1366x768.png",
+  //OTHER
+  "//fonts.googleapis.com/css?family=Raleway:400,300,600"
+];
 TAG = "[SW]: ";
 
 self.addEventListener("install", event => {
@@ -16,8 +32,11 @@ self.addEventListener("activate", event => {
 })
 
 self.addEventListener("fetch", event => {
-  console.log(TAG, "fetching");
-  event.respondWith(fetch(event.request));
+  event.respondWith(
+    caches.match(event.request).then(function(response) {
+      return response || fetch(event.request);
+    })
+  );
 })
 
 self.addEventListener("push", event => {
