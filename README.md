@@ -12,6 +12,8 @@ Includes:
 
 #### DEMO: [https://lellefood.github.io/static_html_template/](https://lellefood.github.io/static_html_template/) or visit the gh-pages branch of this repository
 
+![demo application](static.png "Installation prompt -> Installed notification -> PWA in application list -> PWA loading screen")
+
 ### Installation
 
 * Install git `sudo apt-get install git`
