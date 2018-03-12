@@ -10,6 +10,8 @@ Includes:
 * Basic service worker + registration companion
 * Initial web push notification support (you will need a external server)
 
+#### DEMO: [https://lellefood.github.io/static_html_template/](https://lellefood.github.io/static_html_template/) or visit the gh-pages branch of this repository
+
 ### Installation
 
 * Install git `sudo apt-get install git`
