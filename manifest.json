@@ -3,7 +3,7 @@
   "short_name":"lorem",
   "description": "A simply htm template for static websites.",
   "lang": "it-IT",
-  "start_url":"/?utm_source=manifest",
+  "start_url":"https://lellefood.githu.io/static_html_template/index.html?utm_source=manifest",
   "background_color": "#EEEEEE",
   "theme_color": "#0A1722",
   "display": "standalone",
