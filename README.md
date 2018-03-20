@@ -10,14 +10,14 @@ Includes:
 * Basic service worker + registration companion
 * Initial web push notification support (you will need a external server)
 
-#### DEMO: [https://lellefood.github.io/static_html_template/](https://lellefood.github.io/static_html_template/) or visit the gh-pages branch of this repository
+#### DEMO: [https://lellefood.github.io/static_pwa_boilerplate/](https://lellefood.github.io/static_html_template/) or visit the gh-pages branch of this repository
 
 ![demo application](static.png "Installation prompt -> Installed notification -> PWA in application list -> PWA loading screen")
 
 ### Installation
 
 * Install git `sudo apt-get install git`
-* Clone the repo: `git clone https://github.com/lellefood/static_html_template.git`
+* Clone the repo: `git clone https://github.com/lellefood/static_pwa_boilerplate.git`
 * Rename directory: `mv static_html_template <new_project_name>`
 * Change directory: `cd <new_project_name>`
 * Modify the `manifest.json` with your informations
