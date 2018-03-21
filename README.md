@@ -18,7 +18,7 @@ Includes:
 
 * Install git `sudo apt-get install git`
 * Clone the repo: `git clone https://github.com/lellefood/static_pwa_boilerplate.git`
-* Rename directory: `mv static_html_template <new_project_name>`
+* Rename directory: `mv static_pwa_boilerplate <new_project_name>`
 * Change directory: `cd <new_project_name>`
 * Modify the `manifest.json` with your informations
 * Start writing your website
