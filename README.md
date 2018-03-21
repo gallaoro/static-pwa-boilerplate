@@ -1,4 +1,4 @@
-# Basic html template for modern static websites
+# Basic html template for modern static progressive web apps
 
 Ready to create a static [progressive web app](https://developers.google.com/web/progressive-web-apps/) with a manifest and a serviceworker, easily deployable with [Github pages](https://pages.github.com/).
 
@@ -60,4 +60,4 @@ Link to it with `/<new_page_name>.html`
 
 ### Deploy
 
-Follow the instructions on [Github pages website](https://pages.github.com/)
+Follow the simple instructions on [Github pages website](https://pages.github.com/) to know how to deploy your pwa for free
