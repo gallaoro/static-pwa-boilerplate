@@ -10,7 +10,7 @@ Includes:
 * Basic service worker + registration companion
 * Initial web push notification support (you will need a external server)
 
-#### DEMO: [https://lellefood.github.io/static_pwa_boilerplate/](https://lellefood.github.io/static_html_template/) or visit the gh-pages branch of this repository
+#### DEMO: [https://lellefood.github.io/static_pwa_boilerplate/](https://lellefood.github.io/static_pwa_boilerplate/) or visit the gh-pages branch of this repository
 
 ![demo application](static.png "Installation prompt -> Installed notification -> PWA in application list -> PWA loading screen")
 
