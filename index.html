@@ -34,13 +34,13 @@
 
   <!-- Manifest
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="manifest" href="https://lellefood.github.io/static_html_template/manifest.json">
+  <link rel="manifest" href="https://lellefood.github.io/static_pwa_boilerplate/manifest.json">
 
   <!-- Service Worker registration
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <script async type="text/javascript">
     if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('/serviceworker.js', {scope: '/static_pwa_boilerplate/'})
+      navigator.serviceWorker.register('https://lellefood.github.io/static_pwa_boilerplate/serviceworker.js', {scope: '/static_pwa_boilerplate/'})
       .then(function(registration) {
         registration.addEventListener('updatefound', function() {
           var installingWorker = registration.installing;
